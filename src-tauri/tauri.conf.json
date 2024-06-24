@@ -1,6 +1,6 @@
 {
   "package": {
-    "productName": "WeRead",
+    "productName": "iAnnChat",
     "version": "1.0.0"
   },
   "tauri": {
@@ -8,8 +8,8 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "weread.qq.com",
-          "windows": ["pake"],
+          "domain": "https://www.pmgpt.cn",
+          "windows": ["chatgpt"],
           "enableTauriAPI": true
         }
       ]
@@ -18,7 +18,7 @@
       "active": false
     },
     "systemTray": {
-      "iconPath": "png/icon_512.png",
+      "iconPath": "png/chatgpt_512.png",
       "iconAsTemplate": false
     },
     "allowlist": {
