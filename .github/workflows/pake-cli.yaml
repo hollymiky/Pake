@@ -124,7 +124,7 @@ jobs:
         env:
           URL: ${{ inputs.url }}
           NAME: ${{ inputs.name }}
-          ICON: chatgpt.icns
+          ICON: ${{ inputs.icon }}
           HEIGHT: ${{ inputs.height }}
           WIDTH: ${{ inputs.width }}
           HIDE_TITLE_BAR: ${{ inputs.hide_title_bar }}
